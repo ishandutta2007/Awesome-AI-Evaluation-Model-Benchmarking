@@ -12,7 +12,7 @@
 <!-- Badges Header -->
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
 <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking?style=flat-square" alt="GitHub Issues"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking?style=flat-square&color=green" alt="License"/></a>
@@ -82,7 +82,7 @@ The sector is currently **moderately fragmented**: specialized startups and open
 
 ## 💻 Open-Source GitHub Projects (Star-Ranked)
 
-Curated list of the top open-source AI evaluation harnesses, benchmarking suites, and self-hosted tracing stacks, strictly sorted in **descending order by GitHub star count**. Each repository badge links directly to its stargazer community.
+Curated list of the top open-source AI evaluation harnesses, benchmarking suites, and self-hosted tracing stacks, strictly sorted in **descending order by GitHub Stars_Count**. Each repository badge links directly to its stargazer community.
 
 1. **[FastChat / Chatbot Arena (`lm-sys/FastChat`)](https://github.com/lm-sys/FastChat)** [![Stars](https://img.shields.io/github/stars/lm-sys/FastChat?style=social&color=white)](https://github.com/lm-sys/FastChat/stargazers)  
    An open platform for training, serving, and evaluating LLM-based chatbots, powering the world-renowned LMSYS Chatbot Arena human preference Elo-rating system.
