@@ -30,77 +30,34 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global AI evaluation and LLM observability market is estimated at approximately **$1.4B–$2.0B** in 2026, projected to scale rapidly to over **$7B–$9B** by 2030 at a CAGR exceeding 33%. The sector is **moderately fragmented**: specialized startups and open-source evaluation frameworks drive active algorithmic innovation across evaluation harnesses, while enterprise budgets and telemetry pipelines are progressively concentrating around full-stack observability incumbents and high-scale category leaders.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Confident AI (DeepEval Cloud)](https://confident-ai.com)**  
-
-  Managed cloud evaluation platform built around DeepEval offering collaborative dataset curation, hosted LLM-as-a-judge metrics, red-teaming, and automated CI/CD regression reports.
-
-
-
-- **[Braintrust](https://braintrust.dev)**  
-
-  Enterprise AI evaluation, prompt playground, and logging platform designed to benchmark model and prompt upgrades side by side and prevent regressions across releases.
-
-
-
-- **[LangSmith (LangChain)](https://langchain.com)**  
-
-  All-in-one cloud evaluation, dataset management, and observability platform enabling teams to run offline model benchmarks and online evaluators on agent trajectories.
-
-
-
-- **[Galileo](https://rungalileo.io)**  
-
-  Enterprise AI evaluation and observability suite featuring proprietary hallucination guardrails, agentic trajectory metrics, RAG attribution scoring, and automated error clustering.
-
-
-
-- **[Humanloop](https://humanloop.com)**  
-
-  Enterprise LLM evaluation and prompt management workspace combining human-in-the-loop annotation workflows, custom model graders, and versioned benchmark datasets.
-
-
-
-- **[Arize AX / Arize Phoenix Cloud](https://arize.com)**  
-
-  Enterprise AI observability and evaluation platform delivering OpenTelemetry span tracing, drift detection, and automated LLM evaluation pipelines.
-
-
-
-- **[HoneyHive](https://honeyhive.ai)**  
-
-  AI observability and evaluation platform built for compounding agent reliability through production trace curation, human feedback loops, and CI/CD regression gates.
-
-
-
-- **[Patronus AI](https://patronus.ai)**  
-
-  Automated AI evaluation and safety platform offering adversarial test generation, specialized hallucination detection models (Lynx), and enterprise compliance benchmarking.
-
-
-
-- **[Vellum](https://vellum.ai)**  
-
-  Cloud AI product development platform featuring quantitative multi-model evaluation matrices, prompt sandboxes, and versioned workflow deployments.
-
-
-
-- **[Vals AI / Artificial Analysis](https://artificialanalysis.ai)**  
-
-  Independent cloud benchmarking and model evaluation platforms tracking speed, latency, token pricing, and domain-specific accuracy across frontier and open models.
+| Platform | Description | Size (Valuation / Funding / Status) | Starting Tier Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[LangSmith (LangChain)](https://langchain.com)** | All-in-one cloud evaluation, dataset management, and observability platform enabling teams to run offline model benchmarks and online evaluators on agent trajectories. | **$3.0B** valuation ($460M total funding raised) | **$39 / seat / month** (Plus Plan; includes 10,000 base traces/month; extra traces at $2.50/1k) | **Free Forever (Developer Tier)**: 1 seat, up to 5,000 base traces/month, 14-day data retention. |
+| **[Arize AX / Arize Phoenix Cloud](https://arize.com)** | Enterprise AI observability and evaluation platform delivering OpenTelemetry span tracing, drift detection, and automated LLM evaluation pipelines. | **$915M** acquisition valuation by Dynatrace ($131M prior funding; ~$15M–$45M ARR) | **$50 / month** (AX Pro Plan; includes 50,000 spans/month and 10 GB ingestion; overages at $0.0008/span and $3/GB) | **Free Forever (AX Cloud Free Tier)**: Unlimited users, 25,000 trace spans/month, 1 GB ingestion/month, 15-day data retention. |
+| **[Braintrust](https://braintrust.dev)** | Enterprise AI evaluation, prompt playground, and logging platform designed to benchmark model and prompt upgrades side by side and prevent regressions across releases. | **$800M** valuation ($121M total funding raised) | **$249 / month** (Pro Tier; includes unlimited seats, 5 GB data, 50k scores, $100 model credits, 30-day retention) | **Free Forever (Starter Plan)**: Unlimited seats, 1 GB data/month, 10,000 scores/month, $10/month model credits, 14-day retention. |
+| **[Patronus AI](https://patronus.ai)** | Automated AI evaluation and safety platform offering adversarial test generation, specialized hallucination detection models (Lynx), and enterprise compliance benchmarking. | **~$406M–$410M** valuation ($70M total funding raised) | **~$10 per 1,000 evaluator calls** (Self-serve API usage; Enterprise custom contracts) | **Free Forever (Developer Plan)**: 2 projects, up to 5 experiments per project, 14-day data retention, plus $10 free API trial credits. |
+| **[Galileo](https://rungalileo.io)** | Enterprise AI evaluation and observability suite featuring proprietary hallucination guardrails, agentic trajectory metrics, RAG attribution scoring, and automated error clustering. | **~$100M–$250M** valuation ($68.1M total funding raised; acquired into Cisco/Splunk) | **$100 / month** (Pro Tier billed annually, or $150/month billed monthly; includes 50,000 traces/month) | **Free Forever (Developer Tier)**: Unlimited users/evaluations, up to 5,000 traces/month. |
+| **[Vellum](https://vellum.ai)** | Cloud AI product development platform featuring quantitative multi-model evaluation matrices, prompt sandboxes, and versioned workflow deployments. | **~$80M–$250M** valuation bracket ($25.5M total funding raised) | **$30 / month** (Mighty entry tier; enterprise LLMOps evaluation contracts custom quoted) | **Free Forever (Base Tier)**: 1 vCPU / 2 GiB RAM instance, 6 GiB persistent workspace storage, managed LLM credentials. |
+| **[Humanloop](https://humanloop.com)** | Enterprise LLM evaluation and prompt management workspace combining human-in-the-loop annotation workflows, custom model graders, and versioned benchmark datasets. | Acquired by **Anthropic** ($7.91M prior seed funding raised) | Acquired / Sunset for new billing (historically custom Enterprise contracts) | **Historical Free Tier Limits**: 2 team members, 50 evaluation runs, and up to 10,000 logs/month (acqui-hired by Anthropic). |
+| **[HoneyHive](https://honeyhive.ai)** | AI observability and evaluation platform built for compounding agent reliability through production trace curation, human feedback loops, and CI/CD regression gates. | **$7.4M** total funding raised (Seed-stage) | Custom enterprise quotes / Startup tier for teams with <$5M funding | **Free Forever (Developer Plan)**: Up to 5 team members, 1 workspace, 10,000 events/month, 30-day data retention. |
+| **[Confident AI (DeepEval Cloud)](https://confident-ai.com)** | Managed cloud evaluation platform built around DeepEval offering collaborative dataset curation, hosted LLM-as-a-judge metrics, red-teaming, and automated CI/CD regression reports. | **$2.7M** total funding raised (Seed-stage via Y Combinator & Flex Capital) | **$200 / month** (Starter Plan; includes unlimited user seats; additional trace storage at $1/GB-month) | **Free Forever (Community Cloud Plan)**: 2 user seats, 1 project, 5 test runs per week, 1 GB-month trace storage (7-day retention). |
+| **[Vals AI / Artificial Analysis](https://artificialanalysis.ai)** | Independent cloud benchmarking and model evaluation platforms tracking speed, latency, token pricing, and domain-specific accuracy across frontier and open models. | **$2.6M** total funding raised (Seed-stage via Nat Friedman & Daniel Gross / AI Grant) | **$417 / month** (Pro Tier billed annually at $5,000/yr, or $499/mo; custom enterprise data licenses) | **Free Forever (Data API / Public Index)**: Free access to composite intelligence benchmarks, median speed/latency metrics, capped at 1,000 requests/day. |
 
 
 
