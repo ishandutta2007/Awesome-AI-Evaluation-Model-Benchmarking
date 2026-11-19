@@ -1,52 +1,71 @@
-# Awesome-AI-Evaluation-Model-Benchmarking
+# 🌟 Awesome-AI-Evaluation-Model-Benchmarking
 
-## Top AI Evaluation & Model Benchmarking Ecosystem
+<div align="center">
 
+<a href="https://github.com/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking">
+  <img src="assets/banner.svg" alt="Awesome AI Evaluation & Model Benchmarking Banner" width="100%" />
+</a>
 
+<br/>
+<br/>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<!-- Badges Header -->
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking?style=flat-square" alt="GitHub Issues"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking?style=flat-square&color=green" alt="License"/></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-*Focused on Foundation Model Benchmarking, Autonomous Agent Evaluation Harnesses, RAG & LLM-as-a-Judge Metrics, CI/CD Regression Testing & Red-Teaming*  
+<br/>
+<br/>
 
-**Last updated: November 2026**
+**The Definitive Curated Guide to Foundation Model Benchmarking, Autonomous Agent Evaluation Harnesses, RAG Faithfulness, LLM-as-a-Judge Suites, and CI/CD LLM Regression Testing** 🚀
 
+<sub>Last updated: November 2026 • Curated with ❤️ by <a href="https://github.com/ishandutta2007">@ishandutta2007</a></sub>
 
+</div>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Evaluation & Model Benchmarking**. These tools benchmark open-weight and frontier LLMs across reasoning, coding, and tool-use tasks, run unit-test-style assertions on RAG and multi-step agent trajectories, and gate production deployments against quality regressions.
+---
 
+## 📖 Overview & SEO Summary 🔍
 
+Welcome to the **Awesome AI Evaluation & Model Benchmarking** ecosystem repository! As Large Language Models (LLMs), multimodal foundation models, and autonomous agent workflows progress into enterprise production, systematic **AI evaluation**, **model benchmarking**, and **continuous quality observability** have transitioned from academic curiosities to critical infrastructure requirements.
 
-**Examples** include DeepEval, Ragas, Braintrust, LangSmith, Humanloop, Galileo, Arize Phoenix, HoneyHive, Patronus AI, Confident AI, and autonomous-ai/openharness (the category leaders). 
+Whether you are evaluating frontier models (OpenAI GPT-4o / o1 / o3, Anthropic Claude 3.5 Sonnet / 3.7 Opus, Google Gemini 2.0 / 2.5 Flash, DeepSeek V3 / R1, Meta LLaMA 3.3) or fine-tuned domain-specific architectures, this repository aggregates:
 
+- 📊 **Foundation Model Academic Benchmarks**: Standardized multi-task reasoning, MMLU-Pro, GSM8K, GPQA, ARC, and HumanEval suites.
+- 🤖 **Autonomous AI Agent Evaluation**: Rigorous sandboxed execution environments, multi-turn tool-use validation, SWE-bench software engineering tasks, and Web/OS trajectories.
+- 🎯 **RAG & LLM-as-a-Judge Evaluation**: Groundedness, retrieval precision, context recall, faithfulness scoring, and synthetic golden-dataset generators.
+- 🛡️ **AI Safety, Red-Teaming & Security**: Automated prompt-injection testing, toxicity scanners, hallucination detectors, and compliance benchmarks.
+- 📈 **CI/CD Quality Gates & Telemetry**: Pytest-style assertions, regression testing harnesses, and OpenTelemetry-native trace waterfalls.
 
+---
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for foundation model evaluation harnesses (`lm-evaluation-harness`, `LightEval`, `OpenCompass`, `EvalScope`), autonomous agent harnesses (`openharness`, `Inspect AI`, `SWE-bench`), Pytest-style LLM unit testing (`DeepEval`, `Promptfoo`, `Ragas`), and self-hosted evaluation & tracing suites (`Arize Phoenix`, `Opik`, `Langfuse`) — ideal for ML researchers, AI platform engineers, and QA teams building reproducible benchmarking pipelines.
+## 📑 Table of Contents
 
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Evaluation Platforms](#-saas--hosted-evaluation-platforms)
+- [💻 Open-Source GitHub Projects (Star-Ranked)](#-open-source-github-projects-star-ranked)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 License & Disclaimer](#-license--disclaimer)
 
+---
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+## 🌐 Sector Overview & Market Dynamics
 
+The global AI evaluation and LLM observability market is estimated at approximately **$1.4B–$2.0B** in 2026, projected to scale rapidly to over **$7.2B–$9.3B** by 2030 at a compound annual growth rate (CAGR) exceeding 33%. 
 
+The sector is currently **moderately fragmented**: specialized startups and open-source communities drive aggressive algorithmic innovation across evaluation metrics (LLM judges, trajectory validators, synthetic test datasets, and hallucination detectors), while enterprise budgets and telemetry aggregation pipelines are progressively concentrating around full-stack observability incumbents and high-scale category leaders.
 
-## Table of Contents
+---
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+## 🏢 SaaS & Hosted Evaluation Platforms
 
-
-
-## Sector Overview & Market Dynamics
-
-The global AI evaluation and LLM observability market is estimated at approximately **$1.4B–$2.0B** in 2026, projected to scale rapidly to over **$7B–$9B** by 2030 at a CAGR exceeding 33%. The sector is **moderately fragmented**: specialized startups and open-source evaluation frameworks drive active algorithmic innovation across evaluation harnesses, while enterprise budgets and telemetry pipelines are progressively concentrating around full-stack observability incumbents and high-scale category leaders.
-
-
-
-## SaaS/Hosted Platforms
-
-| Platform | Description | Size (Valuation / Funding / Status) | Starting Tier Pricing | Free Tier / Trial Limits |
+| Platform | Description | Size (Valuation / Funding / Status) 📊 | Starting Tier Pricing 🏷️ | Free Tier / Trial Limits 🎁 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[LangSmith (LangChain)](https://langchain.com)** | All-in-one cloud evaluation, dataset management, and observability platform enabling teams to run offline model benchmarks and online evaluators on agent trajectories. | **$3.0B** valuation ($460M total funding raised) | **$39 / seat / month** (Plus Plan; includes 10,000 base traces/month; extra traces at $2.50/1k) | **Free Forever (Developer Tier)**: 1 seat, up to 5,000 base traces/month, 14-day data retention. |
 | **[Arize AX / Arize Phoenix Cloud](https://arize.com)** | Enterprise AI observability and evaluation platform delivering OpenTelemetry span tracing, drift detection, and automated LLM evaluation pipelines. | **$915M** acquisition valuation by Dynatrace ($131M prior funding; ~$15M–$45M ARR) | **$50 / month** (AX Pro Plan; includes 50,000 spans/month and 10 GB ingestion; overages at $0.0008/span and $3/GB) | **Free Forever (AX Cloud Free Tier)**: Unlimited users, 25,000 trace spans/month, 1 GB ingestion/month, 15-day data retention. |
@@ -59,128 +78,124 @@ The global AI evaluation and LLM observability market is estimated at approximat
 | **[Confident AI (DeepEval Cloud)](https://confident-ai.com)** | Managed cloud evaluation platform built around DeepEval offering collaborative dataset curation, hosted LLM-as-a-judge metrics, red-teaming, and automated CI/CD regression reports. | **$2.7M** total funding raised (Seed-stage via Y Combinator & Flex Capital) | **$200 / month** (Starter Plan; includes unlimited user seats; additional trace storage at $1/GB-month) | **Free Forever (Community Cloud Plan)**: 2 user seats, 1 project, 5 test runs per week, 1 GB-month trace storage (7-day retention). |
 | **[Vals AI / Artificial Analysis](https://artificialanalysis.ai)** | Independent cloud benchmarking and model evaluation platforms tracking speed, latency, token pricing, and domain-specific accuracy across frontier and open models. | **$2.6M** total funding raised (Seed-stage via Nat Friedman & Daniel Gross / AI Grant) | **$417 / month** (Pro Tier billed annually at $5,000/yr, or $499/mo; custom enterprise data licenses) | **Free Forever (Data API / Public Index)**: Free access to composite intelligence benchmarks, median speed/latency metrics, capped at 1,000 requests/day. |
 
+---
 
+## 💻 Open-Source GitHub Projects (Star-Ranked)
 
+Curated list of the top open-source AI evaluation harnesses, benchmarking suites, and self-hosted tracing stacks, strictly sorted in **descending order by GitHub star count**. Each repository badge links directly to its stargazer community.
 
+1. **[FastChat / Chatbot Arena (`lm-sys/FastChat`)](https://github.com/lm-sys/FastChat)** [![Stars](https://img.shields.io/github/stars/lm-sys/FastChat?style=social&color=white)](https://github.com/lm-sys/FastChat/stargazers)  
+   An open platform for training, serving, and evaluating LLM-based chatbots, powering the world-renowned LMSYS Chatbot Arena human preference Elo-rating system.
 
-## Open-Source GitHub Projects
+2. **[Langfuse (`langfuse/langfuse`)](https://github.com/langfuse/langfuse)** [![Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
+   Open-source LLM engineering platform offering dataset experiment runs, LLM-as-a-judge evaluators, prompt management, user feedback scoring, and trace-level evaluation analytics.
 
+3. **[Promptfoo (`promptfoo/promptfoo`)](https://github.com/promptfoo/promptfoo)** [![Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)  
+   Lightweight, blazingly fast CLI and library for declarative LLM benchmarking, side-by-side prompt engineering comparison, CI/CD regression testing, and automated security red-teaming.
 
+4. **[Opik (`comet-ml/opik`)](https://github.com/comet-ml/opik)** [![Stars](https://img.shields.io/github/stars/comet-ml/opik?style=social&color=white)](https://github.com/comet-ml/opik/stargazers)  
+   Open-source, end-to-end LLM evaluation and observability platform from Comet built for logging agent trajectories, managing evaluation datasets, and running LLM-as-a-judge metrics.
 
-- **[autonomous-ai/openharness](https://github.com)**  
+5. **[OpenAI Evals (`openai/evals`)](https://github.com/openai/evals)** [![Stars](https://img.shields.io/github/stars/openai/evals?style=social&color=white)](https://github.com/openai/evals/stargazers)  
+   OpenAI's foundational framework for evaluating LLMs and systems built with LLMs, featuring composable scoring primitives, challenge sets, and model-graded evaluation logic.
 
-  Open-source autonomous AI evaluation and execution harness engineered for benchmarking multi-step agent capabilities, tool-use reliability, and reproducible task trajectories.
+6. **[DeepEval (`confident-ai/deepeval`)](https://github.com/confident-ai/deepeval)** [![Stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers)  
+   The leading open-source (`Apache-2.0`) Pytest-style LLM evaluation framework with 40+ research-backed metrics for agent tool correctness, task completion, faithfulness, hallucination, and red-teaming.
 
+7. **[Ragas (`vibrantlabsai/ragas`)](https://github.com/vibrantlabsai/ragas)** [![Stars](https://img.shields.io/github/stars/vibrantlabsai/ragas?style=social&color=white)](https://github.com/vibrantlabsai/ragas/stargazers)  
+   Supercharged evaluation and synthetic test-data generation toolkit specialized for Retrieval-Augmented Generation (RAG) measuring faithfulness, context precision, context recall, and answer relevancy.
 
+8. **[LM Evaluation Harness (`EleutherAI/lm-evaluation-harness`)](https://github.com/EleutherAI/lm-evaluation-harness)** [![Stars](https://img.shields.io/github/stars/EleutherAI/lm-evaluation-harness?style=social&color=white)](https://github.com/EleutherAI/lm-evaluation-harness/stargazers)  
+   The industry-standard model benchmarking framework from EleutherAI powering the Hugging Face Open LLM Leaderboard with 60+ standardized tasks (`MMLU`, `GSM8K`, `ARC`, `GPQA`, `HellaSwag`).
 
-- **[LM Evaluation Harness (`EleutherAI/lm-evaluation-harness`)](https://github.com)**  
+9. **[Arize Phoenix (`Arize-ai/phoenix`)](https://github.com/Arize-ai/phoenix)** [![Stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers)  
+   Open-source OpenTelemetry-native AI observability and evaluation suite featuring pre-built hallucination/relevance evaluators, span trace waterfalls, and benchmark experiment tracking.
 
-  Industry-standard open-source (`MIT`) model benchmarking framework from EleutherAI powering the Open LLM Leaderboard with 60+ academic tasks (`MMLU`, `GSM8K`, `ARC`, `GPQA`, `HellaSwag`).
+10. **[Cleanlab Studio & Cleanlab Core (`cleanlab/cleanlab`)](https://github.com/cleanlab/cleanlab)** [![Stars](https://img.shields.io/github/stars/cleanlab/cleanlab?style=social&color=white)](https://github.com/cleanlab/cleanlab/stargazers)  
+    The standard open-source library for data-centric AI and automated data quality evaluation, detecting mislabeled benchmark data, outlier tokens, and noisy evaluation sets.
 
+11. **[Evidently AI (`evidentlyai/evidently`)](https://github.com/evidentlyai/evidently)** [![Stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers)  
+    Open-source machine learning and LLM evaluation platform evaluating model quality, semantic drift, text descriptor changes, and RAG pipelines in production and offline test suites.
 
+12. **[OpenCompass (`open-compass/opencompass`)](https://github.com/open-compass/opencompass)** [![Stars](https://img.shields.io/github/stars/open-compass/opencompass?style=social&color=white)](https://github.com/open-compass/opencompass/stargazers)  
+    Comprehensive LLM evaluation platform from Shanghai AI Lab supporting 100+ datasets across language, reasoning, math, coding, multimodal, and long-context capabilities.
 
-- **[DeepEval (`confident-ai/deepeval`)](https://github.com)**  
+13. **[SWE-bench (`SWE-bench/SWE-bench`)](https://github.com/SWE-bench/SWE-bench)** [![Stars](https://img.shields.io/github/stars/SWE-bench/SWE-bench?style=social&color=white)](https://github.com/SWE-bench/SWE-bench/stargazers)  
+    Foundational software-engineering benchmark evaluating autonomous coding agents on their capability to resolve real-world GitHub issues end-to-end within isolated Docker containers.
 
-  Leading open-source (`Apache-2.0`) Pytest-style LLM evaluation framework offering 40+ research-backed metrics for agent tool correctness, task completion, faithfulness, hallucination, and red-teaming.
+14. **[Giskard (`Giskard-AI/giskard-oss`)](https://github.com/Giskard-AI/giskard-oss)** [![Stars](https://img.shields.io/github/stars/Giskard-AI/giskard-oss?style=social&color=white)](https://github.com/Giskard-AI/giskard-oss/stargazers)  
+    Open-source QA, red-teaming, and regression testing framework for AI agents and LLM applications scanning for hallucinations, harmful content, prompt injections, and performance degradation.
 
+15. **[lmms-eval (`EvolvingLMMs-Lab/lmms-eval`)](https://github.com/EvolvingLMMs-Lab/lmms-eval)** [![Stars](https://img.shields.io/github/stars/EvolvingLMMs-Lab/lmms-eval?style=social&color=white)](https://github.com/EvolvingLMMs-Lab/lmms-eval/stargazers)  
+    The evaluation engine for Large Multimodal Models (LMMs), accelerating benchmarking of multimodal models across MMMU, MathVista, OCRBench, and video-reasoning challenges.
 
+16. **[VLMEvalKit (`open-compass/VLMEvalKit`)](https://github.com/open-compass/VLMEvalKit)** [![Stars](https://img.shields.io/github/stars/open-compass/VLMEvalKit?style=social&color=white)](https://github.com/open-compass/VLMEvalKit/stargazers)  
+    Comprehensive open-source evaluation toolkit for Vision-Language Models (VLMs) supporting standard multimodal benchmarks with zero-shot and few-shot evaluation pipelines.
 
-- **[Ragas (`explodinggradients/ragas`)](https://github.com)**  
+17. **[AgentBench (`THUDM/AgentBench`)](https://github.com/THUDM/AgentBench)** [![Stars](https://img.shields.io/github/stars/THUDM/AgentBench?style=social&color=white)](https://github.com/THUDM/AgentBench/stargazers)  
+    The first comprehensive benchmark evaluating Large Language Models as autonomous agents across diverse multi-turn environments including operating systems, databases, web browsing, and digital games.
 
-  Widely adopted open-source (`Apache-2.0`) evaluation and synthetic test-data generation toolkit specialized in measuring faithfulness, context precision, context recall, and answer relevancy.
+18. **[EvalScope (`modelscope/evalscope`)](https://github.com/modelscope/evalscope)** [![Stars](https://img.shields.io/github/stars/modelscope/evalscope?style=social&color=white)](https://github.com/modelscope/evalscope/stargazers)  
+    Streamlined model evaluation and stress-testing framework from ModelScope supporting standard academic benchmarks, Arena-style battle ranking, and inference throughput profiling.
 
+19. **[TruLens (`truera/trulens`)](https://github.com/truera/trulens)** [![Stars](https://img.shields.io/github/stars/truera/trulens?style=social&color=white)](https://github.com/truera/trulens/stargazers)  
+    Systematic evaluation and tracking library for LLM and RAG applications using programmable feedback functions to score groundedness, context relevance, and answer relevance.
 
+20. **[Inspect AI (`UKGovernmentBEIS/inspect_ai`)](https://github.com/UKGovernmentBEIS/inspect_ai)** [![Stars](https://img.shields.io/github/stars/UKGovernmentBEIS/inspect_ai?style=social&color=white)](https://github.com/UKGovernmentBEIS/inspect_ai/stargazers)  
+    Open-source evaluation framework developed by the UK AI Security Institute (AISI) for benchmarking complex reasoning, sandboxed agent tool-use, cybersecurity skills, and model safeguards.
 
-- **[LightEval (`huggingface/lighteval`)](https://github.com)**  
+21. **[HELM (`stanford-crfm/helm`)](https://github.com/stanford-crfm/helm)** [![Stars](https://img.shields.io/github/stars/stanford-crfm/helm?style=social&color=white)](https://github.com/stanford-crfm/helm/stargazers)  
+    Holistic Evaluation of Language Models from Stanford CRFM benchmarking models multi-dimensionally across accuracy, calibration, robustness, fairness, bias, toxicity, and copyright efficiency.
 
-  All-in-one open-source (`MIT`) model benchmarking suite from Hugging Face supporting distributed `vLLM`, `Transformers`, and `Nanotron` backends across hundreds of standardized benchmarks.
+22. **[PromptBench (`microsoftarchive/promptbench`)](https://github.com/microsoftarchive/promptbench)** [![Stars](https://img.shields.io/github/stars/microsoftarchive/promptbench?style=social&color=white)](https://github.com/microsoftarchive/promptbench/stargazers)  
+    Microsoft Research's benchmark suite evaluating the adversarial robustness and prompt sensitivity of Large Language Models against character, word, sentence, and semantic perturbations.
 
+23. **[LightEval (`huggingface/lighteval`)](https://github.com/huggingface/lighteval)** [![Stars](https://img.shields.io/github/stars/huggingface/lighteval?style=social&color=white)](https://github.com/huggingface/lighteval/stargazers)  
+    Hugging Face's lightweight, flexible model evaluation suite supporting distributed inference backends (`vLLM`, `Transformers`, `Nanotron`, `TGI`) across hundreds of standardized tasks.
 
+24. **[EvalPlus (`evalplus/evalplus`)](https://github.com/evalplus/evalplus)** [![Stars](https://img.shields.io/github/stars/evalplus/evalplus?style=social&color=white)](https://github.com/evalplus/evalplus/stargazers)  
+    Rigorous code-synthesis evaluation framework extending HumanEval and MBPP with 80x more rigorous edge cases (HumanEval+ and MBPP+) to unmask fragile generated code.
 
-- **[OpenCompass (`open-compass/opencompass`)](https://github.com)**  
+25. **[Prometheus-Eval (`prometheus-eval/prometheus-eval`)](https://github.com/prometheus-eval/prometheus-eval)** [![Stars](https://img.shields.io/github/stars/prometheus-eval/prometheus-eval?style=social&color=white)](https://github.com/prometheus-eval/prometheus-eval/stargazers)  
+    Open-source evaluators and fine-tuned open-weight judge models capable of assessing user-defined rubrics and custom criteria, matching GPT-4-as-a-judge quality at a fraction of the cost.
 
-  Comprehensive open-source (`Apache-2.0`) LLM evaluation platform from Shanghai AI Lab supporting 100+ datasets across language, reasoning, math, coding, multimodal, and long-context capabilities.
+26. **[AutoEvals (`braintrustdata/autoevals`)](https://github.com/braintrustdata/autoevals)** [![Stars](https://img.shields.io/github/stars/braintrustdata/autoevals?style=social&color=white)](https://github.com/braintrustdata/autoevals/stargazers)  
+    Open-source collection of out-of-the-box evaluation functions from Braintrust for scoring model responses, hallucination, translation quality, JSON validness, and Levenshtein distance.
 
+27. **[LiveCodeBench (`LiveCodeBench/LiveCodeBench`)](https://github.com/LiveCodeBench/LiveCodeBench)** [![Stars](https://img.shields.io/github/stars/LiveCodeBench/LiveCodeBench?style=social&color=white)](https://github.com/LiveCodeBench/LiveCodeBench/stargazers)  
+    Holistic and contamination-free code generation benchmark continuously harvesting problems from competitive programming contests across code synthesis, self-repair, and execution forecasting.
 
+28. **[autonomous-ai/openharness](https://github.com/autonomous-ai/openharness)** [![Stars](https://img.shields.io/github/stars/autonomous-ai/openharness?style=social&color=white)](https://github.com/autonomous-ai/openharness/stargazers)  
+    Open-source execution harness engineered for validating autonomous agents across sandboxed workflows, multi-step tool-use reliability, and reproducible task trajectories.
 
-- **[EvalScope (`modelscope/evalscope`)](https://github.com)**  
+---
 
-  Streamlined open-source (`Apache-2.0`) model evaluation and performance stress-testing framework from ModelScope supporting standard benchmarks, Arena-style battles, and inference throughput profiling.
+## 📈 Star History
 
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-Evaluation-Model-Benchmarking&type=date&legend=top-left)
 
+---
 
-- **[Inspect AI (`UKGovernmentBEIS/inspect_ai`)](https://github.com)**  
+## 💖 Support & Sponsorship
 
-  Open-source (`MIT`) evaluation framework developed by the UK AI Security Institute (AISI) for benchmarking complex reasoning, sandboxed agent tool use, and safety capabilities.
+Thank you for visiting and using **Awesome-AI-Evaluation-Model-Benchmarking**! If you find this curated collection helpful for your research, team, or project:
 
+- ⭐ **Star this repository** to help others discover the best AI evaluation tooling.
+- 🍴 **Fork and share** it with fellow AI engineers, researchers, and MLOps teams.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing curation and development of AI benchmarking open-source resources, please visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your support is deeply appreciated!
 
+---
 
-- **[Promptfoo (`promptfoo/promptfoo`)](https://github.com)**  
+## 🤝 How to Contribute
 
-  Fast open-source (`MIT`) CLI and library for declarative model benchmarking, side-by-side prompt/model comparisons, CI/CD regression gating, and automated red-teaming.
+Contributions are warmly welcomed! To suggest a new tool, benchmark harness, or platform:
+1. Ensure the project is actively maintained and relevant to **AI Evaluation**, **Model Benchmarking**, **RAG Metrics**, or **LLMOps Quality Testing**.
+2. If submitting a SaaS product, verify that exact tier pricing and specific free trial/plan limits are provided.
+3. Open a pull request with factual descriptions and official links.
 
+---
 
+## 📜 License & Disclaimer
 
-- **[Arize Phoenix (`Arize-ai/phoenix`)](https://github.com)**  
-
-  Open-source (`ELv2`) OpenTelemetry-native AI observability and evaluation suite featuring pre-built hallucination/relevance evaluators, trace waterfalls, and experiment tracking.
-
-
-
-- **[Opik (`comet-ml/opik`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) end-to-end LLM evaluation and tracing platform from Comet built for logging agent trajectories, managing evaluation datasets, and running LLM-as-a-judge metrics.
-
-
-
-- **[Langfuse (`langfuse/langfuse`)](https://github.com)**  
-
-  Self-hostable open-source LLM engineering platform offering dataset experiment runs, LLM-as-a-judge evaluators, user feedback scoring, and trace-level evaluation analytics.
-
-
-
-- **[TruLens (`truera/trulens`)](https://github.com)**  
-
-  Open-source (`MIT`) library for systematically evaluating and tracking LLM and RAG applications using programmable Feedback Functions (Groundedness, Context Relevance, Answer Relevance).
-
-
-
-- **[EvalPlus (`evalplus/evalplus`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) rigorous code-generation benchmarking framework extending HumanEval and MBPP with 80x more edge-case test inputs to expose fragile code synthesis.
-
-
-
-- **[SWE-bench (`SWE-bench/SWE-bench`)](https://github.com)**  
-
-  Foundational open-source (`MIT`) software-engineering benchmark evaluating autonomous coding agents on their ability to resolve real-world GitHub issues inside Dockerized repositories.
-
-
-
-- **[LiveCodeBench (`LiveCodeBench/LiveCodeBench`)](https://github.com)**  
-
-  Contamination-free open-source (`MIT`) coding benchmark continuously collecting new competitive programming problems across code generation, self-repair, and execution prediction.
-
-
-
-- **[Giskard (`Giskard-AI/giskard-oss`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) automated QA and testing framework for AI agents and RAG pipelines that scans for hallucinations, bias, prompt injection, and robustness regressions.
-
-
-
-- **[HELM (`stanford-crfm/helm`)](https://github.com)**  
-
-  Holistic Evaluation of Language Models (`Apache-2.0`) from Stanford CRFM benchmarking models across accuracy, calibration, robustness, fairness, bias, toxicity, and efficiency.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[OpenAI Evals (`openai/evals`)](https://github.com)** and **[AutoEvals (`braintrustdata/autoevals`)](https://github.com)** for composable open-source scoring primitives and custom model-graded capability evals.
-
-- **[VLMEvalKit (`open-compass/VLMEvalKit`)](https://github.com)** and **[lmms-eval (`EvolvingLMMs-Lab/lmms-eval`)](https://github.com)** for standardized open-source benchmarking of Vision-Language and Multimodal models (`MMMU`, `MathVista`, `OCRBench`).
-
-- **[FastChat / Chatbot Arena (`lm-sys/FastChat`)](https://github.com)** and **[Prometheus-Eval (`prometheus-eval/prometheus-eval`)](https://github.com)** for Elo-based pairwise model arenas and open-weight judge models that replace proprietary GPT-4 judges.
+- Distributed under the [MIT License](LICENSE).
+- Disclaimer: All product names, logos, and brands are property of their respective owners. Listing in this repository does not imply endorsement.
